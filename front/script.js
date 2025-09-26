@@ -1,5 +1,5 @@
-const API_BASE = "http://localhost:3000";    // your running Express API
-const PUBLIC_BASE = "https://short.link";    // canonical display base
+const API_BASE = "http://localhost:3000";    
+const PUBLIC_BASE = "https://short.link";    
 
 const listEl = document.getElementById("linkList");
 const form = document.getElementById("shortenForm");
