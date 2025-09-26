@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>URL Shortener</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="left">
+    <img src="anchorzuplogo.png" class="logo" alt="Logo">
+    <h1>My shortened URLs</h1>
+    <ul id="linkList" class="link-list"></ul>
+  </div>
+
+  <div class="right">
+    <h1>URL Shortener</h1>
+
+    <form id="shortenForm" class="form">
+      <div class="inputs">
+        <input id="longUrl" type="url" placeholder="Paste the URL to be shortened" required />
+        <select id="expiry" required>
+          <option value="" disabled selected>Add expiration date</option>
+          <option value="1m">1 minute</option>
+          <option value="5m">5 minutes</option>
+          <option value="30m">30 minutes</option>
+          <option value="1h">1 hour</option>
+          <option value="5h">5 hours</option>
+        </select>
+      </div>
+      <button class="butoni" type="submit">Shorten URL</button>
+    </form>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
